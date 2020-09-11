@@ -19,9 +19,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 
-public class PersonController {
+public class Controller {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(PersonController.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Controller.class);
 
     @Inject
     PersonDao personDao;
